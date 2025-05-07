@@ -272,6 +272,7 @@ function takeCommand(message) {
   }
   else if (message.includes("tell me a joke") ||
            message.includes("jokes") ||
+           message.includes("jokes") ||
            message.includes("entertain me") ||
            message.includes("make me laugh")) {
     const jokeReply = randomjokes();
